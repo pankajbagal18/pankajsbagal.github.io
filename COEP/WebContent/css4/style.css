@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Montserrat');
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  user-select: none;
+}
+.h-fit {
+  min-height: 100vh;
+}
+.text-accent {
+  font-family: 'Montserrat', sans-serif;
+}
+#floater {
+  transition: 0.15s all ease-in-out;
+}
+#floater:hover {
+  transform: translateY(-1px);
+}
+#floater > * {
+  height: 100%;
+  width: 100%;
+}
+#floater-image {
+  background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/23519121_1889555871057905_8678934678793042092_n.jpg?_nc_cat=0&oh=596cae225fcdea7f04fe1bfbbcf444d3&oe=5C2F9EFC");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#floater-background {
+  opacity: 0.3;
+  background-color: #247BA0;
+}
+#container {
+  background-image: linear-gradient(to bottom, #70C1B3, #247BA0);
+}
